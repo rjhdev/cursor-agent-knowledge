@@ -30,6 +30,9 @@ README.md          # This file — orientation for humans and agents
 INDEX.md           # Topic index; start here when browsing knowledge
 topics/            # Knowledge organized by topic (one file per subject)
   README.md        # Describes topic naming and file conventions
+  fabric-patterns.md  # Fabric pattern catalog (fetch-on-demand reference)
+scripts/           # Maintenance scripts (e.g. regenerate Fabric skills)
+.cursor/skills/    # Cursor agent skills adapted from Fabric patterns
 ```
 
 Add new topics under `topics/` as flat Markdown files (for example `topics/deployment.md`, `topics/debugging.md`).
